@@ -1,4 +1,4 @@
-package com.algaworks.socialbooks;
+package com.algaworks.fizzbuzz;
 
 public class TesteDosNumeros {
 
