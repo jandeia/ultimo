@@ -1,13 +1,13 @@
-package com.algaworks.fizzbuzz;
+package br.jus.tjro.exercicio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FizzBuzzApplication {
+public class ExercicioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FizzBuzzApplication.class, args);
+		SpringApplication.run(ExercicioApplication.class, args);
 	}
 
 }
