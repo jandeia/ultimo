@@ -23,10 +23,15 @@ public class Pilha {
 	}
 
 	public Object topo() {
-		return elementos[quantidade-1];
+		if(quantidade >0) {
+			return elementos[quantidade-1];
+		}else {
+			return 0;
+		}
+	
 	}
 
-	public Object desempilha() {
+	public Object desempilha() {	
 		Object topo = topo();
 		quantidade --;
 		return topo;
